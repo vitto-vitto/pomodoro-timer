@@ -1,25 +1,11 @@
 {
-    "manifest_version": 3,
-    "name": "Pomodoro Timer Extension",
-    "version": "1.0.0",
-    "description": "Chrome Extension Practice",
+    "manifest_version": 2,
+    "name": "Pomodoro Timer",
+    "version": "2.0",
+    "description": "Helps you focus and get shits done",
     "icons": {
         "16": "icon.png",
         "48": "icon.png",
         "128": "icon.png"
-    },
-    "action": {
-        "default_icon": {
-            "16": "icon.png",
-            "48": "icon.png",
-            "128": "icon.png"
-        },
-        "default_title": "Timer Extension Atcion Title",
-        "default_popup": "popup.html"
-    },
-    "options_page": "options.html",
-    "permissions": ["storage", "alarms", "notifications"],
-    "background": {
-        "service_worker": "background.js"
     }
 }
