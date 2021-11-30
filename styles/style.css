@@ -1,0 +1,11 @@
+#popup {
+  height: 400px;
+  width: 300px;
+}
+#popup .header {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
